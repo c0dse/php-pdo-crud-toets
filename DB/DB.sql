@@ -12,8 +12,8 @@ CREATE TABLE IF NOT EXISTS `DureAuto` (
 ) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=latin1;
 
 INSERT INTO `DureAUto` (`Id`, `Merk`, `Model`, `Topsnelheid`, `Prijs`) VALUES
-(1, `Bugatti`, `La voiture noire`, 420, '16500000'),
-(2, `Rolls-Royce`, `Swaptail`, 250, `10960000`),
-(3, `Bugatti`, `EB110`, 390, `7500000`),
-(4, `Mercedes-Benz`, `Maybach Exelero`, 350, `6700000`),
-(5, `Koenigsegg`, `CCXR Trevita`, 401, `4000000`);
+(1, 'Bugatti', 'La voiture noire', 420, '16500000'),
+(2, 'Rolls-Royce', 'Swaptail', 250, '10960000'),
+(3, 'Bugatti', 'EB110', 390, '7500000'),
+(4, 'Mercedes-Benz', 'Maybach Exelero', 350, '6700000'),
+(5, 'Koenigsegg', 'CCXR Trevita', 401, '4000000');
