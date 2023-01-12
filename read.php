@@ -50,7 +50,9 @@
                 <td>$data->Topsnelheid</td>
                 <td>$data->Prijs</td>
                 <td>
-                    delete x
+                    <a href='delete.php?Id=$data->Id'>
+                        <img src='cross.png' alt='kruis'>
+                    </a>
                 </td>
             </tr>
             ";
