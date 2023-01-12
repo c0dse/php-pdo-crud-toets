@@ -33,12 +33,11 @@
         $statement = $con->prepare($query);
 
         $statement->execute();
-
         echo "succesfully deleted the record";
-        
+        header("Refresh:3; url=read.php");
+
         ?>
         <br>
-        <a href="read.php">Ga terug naar de records-></a>
 
 </body>
 </html>
